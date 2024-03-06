@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: #0b0c0d;
+    }
+    .box{
+        width: 150px;
+        height: 80px;
+        border: 3px solid whitesmoke;
+        border-radius: 12px;
+        position: relative;
+    }
+    .box::before{
+        content: " ";
+        position: absolute;
+        top: 40px;
+        right: -10px;
+        transform: translate(10px , -50%);
+        width: 10px;
+        height: 25px;
+        background-color: transparent;
+        border: 3px solid whitesmoke;
+    }
+    .box::after{
+        content: " ";
+        position: absolute;
+        background: #f1efef;
+        border-radius: 7px;
+        animation: gaurav 5s linear infinite ;
+    }
+    @keyframes gaurav{
+        0%{
+            width: 0%;
+            background: red;
+        }
+        25%{
+            width: 25%;
+            background: orange;
+        }
+        50%{
+          width: 50%;  
+          background: yellow;
+
+        }
+        75%{
+            width: 75%;
+            background: #d7fc03;
+        }
+        100%{
+            width: 100%;
+            background: green;
+        }
+    }
+</style>
+<body>
+    <div class="main-outer">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

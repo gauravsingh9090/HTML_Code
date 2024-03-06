@@ -1,0 +1,36 @@
+.container{
+    background-color: greenyellow;
+    border: 2px solid gray;
+    padding: 5px;
+    height: 200vh;
+}
+#box1{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+#box2{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid rgb(214, 43, 43);
+}
+#box3{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+#box4{
+    display: inline-block;
+    position: fixed;
+    right: 100px;
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+}

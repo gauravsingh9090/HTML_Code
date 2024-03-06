@@ -1,0 +1,17 @@
+.hello{
+    background-color: pink;
+    height: 500px;
+    width: auto;
+    border-style:  solid ;
+}
+h1{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+}
+img{
+    background-color: palevioletred;
+    height: 250px;
+    width: 400px;
+    border: solid;
+}

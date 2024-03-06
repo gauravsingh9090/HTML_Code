@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding:0px;
+    }
+    .navbar h2{
+        margin-top: 20px;
+    }
+    .navbar{
+        height: 200px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        background-color: #FB607F;
+        justify-content: space-around;
+        
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline;
+        margin: 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: 'poppins' sans-serif;
+    }
+    .navbar img{
+        height: 100px;
+        width: 300px;
+        margin-top: 30px;
+        /* margin-left:5px ; */
+    }
+    .homediv{
+        background-color: rgb(76,130,166);
+        height: 100px;
+        width: 2px;
+        border-right: 2px dashed yellow;
+        position: absolute;
+        top: 1px;
+        left: 700px;
+        z-index: 2;
+    }
+    .home{
+        position: relative;
+        left: 20px;
+        top: 120px;
+    }
+      .portfoliodiv{
+        background-color: rgb(76,130,166);
+        height: 120px;
+        width: 2px;
+        border-right: 2px dashed rgb(191, 191, 15);
+        position: absolute;
+        top: 1px;
+        left: 800px;
+        z-index: 2;
+    }
+    .portfolio{
+        position: relative;
+        left: 60px;
+        top: 130px;
+    }
+    .servicediv{
+        background-color: rgb(76,130,166);
+        height: 120px;
+        width: 2px;
+        border-right: 2px dashed rgb(243, 243, 74);
+        position: absolute;
+        top: 2px;
+        right: 500px;
+        z-index: 2;
+    }
+    .service{
+        position: relative;
+        left:  50px;
+        top: 80px;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <img src="/learning/png.homework.png" alt="logo" >
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="portfolio"><a href="#">portfolio</a></li>
+            <li class="service"><a href="#">service</a></li>
+            <li class="Consultancy"><a href="#"> Consultancy</a></li>
+            <li class="About"><a href="#">About</a></li>
+        </ul>
+
+    </div>
+   <div class="homediv"></div>
+   <div class="portfoliodiv"></div>
+   <div class="servicediv"></div>
+</body>
+</html>

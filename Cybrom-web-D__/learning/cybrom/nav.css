@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: tomato;
+    color: white;
+    align-items: center;
+    padding: 30px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+}
+#demo{
+    display: none;
+}
+#demo:checked~.navbar ul{
+    display: block;
+}
+@media screen and(max-width: 768px) {
+    .navbar label{
+        display: block;
+
+    }
+    .navbar ul li{
+        display: block;
+        color: black;
+    }
+    .navbar{
+        height: 40px;
+    }
+    .navbar ul{
+        position:absolute;
+    }
+    
+}

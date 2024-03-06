@@ -1,0 +1,43 @@
+.main{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    /* border-radius: 90px; */
+    animation-name: Gaurav;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate ;
+    position: relative;
+}
+/* @keyframes Gaurav{
+    to{
+       transform: translateX(200px);
+    }
+    from{
+        transform: translateX(0px);
+    }
+} */
+
+@keyframes Gaurav{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    20%{
+        top: 0;
+        left: 300px;
+        transform: rotate(300deg);
+    }
+    40%{
+        top: 300px;
+        left: 300px;
+    }
+    60%{
+        top: 300px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}

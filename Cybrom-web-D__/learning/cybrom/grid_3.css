@@ -1,0 +1,39 @@
+.grid_contaner{
+   height: 100vh;
+  display: grid;
+  background-color: yellow;
+  grid-template-columns: repeat(3 ,1fr) ;
+  grid-template-rows: repeat(4 ,1fr) ;
+  /* margin: 10px; */
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.grid-item1, .grid-item2 ,.grid-item3,.grid-item4,.grid-item5,.grid-item6{
+    background-color: red;
+    border: 2px solid  green;
+
+}
+.grid-item1{
+    grid-column-start:1 ;
+    grid-column-end:4;
+}
+.grid-item2{
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+}
+.grid-item3{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+}
+.grid-item4{
+    grid-column-start:3 ;
+    grid-column-end:4;
+}
+.grid-item5{
+    grid-column-start:2 ;
+    grid-column-end:4;
+}
+.grid-item6{
+    grid-column-start:1 ;
+    grid-column-end:4;
+}

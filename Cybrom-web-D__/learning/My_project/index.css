@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+body{
+    color: black;
+}
+.header{
+    display: block;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.container{
+    max-width: 1068px;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 35px ;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+.navbar{
+    color: blanchedalmond;
+    display: flex;
+    column-gap: 40px;
+}
+.navbar a{
+    color: #020102;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    

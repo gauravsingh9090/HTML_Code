@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root{
+    --primary-color:#da042a;
+    --perimary-color-dark:#c00427;
+    --secondary-color:#15151f;
+    --secondary-color-dark: #0a0b0f;
+    --text-light:#6b7280;
+    --extra-light: #f8f7fd;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section__container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+.section__subheader{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.section__header{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: var(--secondary-color-dark);
+}
+.section__description{
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
+.btn{
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--perimary-color-dark);
+
+}
+img{
+    width: 100px;
+    display: flex;
+}
+.logo img{
+    max-width: 150px;
+}
+a{
+    text-decoration: none;
+}
+html,
+body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    padding-block: 5rem;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5))
+    url("/1679984621950_3in3GL\ .bmw.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

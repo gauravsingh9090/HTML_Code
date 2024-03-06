@@ -1,0 +1,24 @@
+.parent1{
+    display: flex;
+    border: 3px solid green;
+    padding: 10px;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+
+
+    
+}
+.child1{
+    padding: 20px;
+    background-color: rgb(230, 154, 154);
+    border: 1px solid gray;
+    text-align: center;
+}
